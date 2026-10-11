@@ -1,0 +1,108 @@
+ *{
+ box-sizing: border-box;
+margin: 0;
+padding: 0;
+}
+body{
+    font-family: fantasy;
+    line-height: 1.6;
+    background-color: rgb(30, 8, 92);
+}
+header{
+    background-color: rgb(83, 177, 240);
+    color: #000000;
+    text-align: center;
+    padding: 2rem 1rem;
+    border-radius: 8px;
+    margin: 20px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+header h1{
+    margin: 10px;
+}
+main {
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+section {
+  background: #ff01d0;
+  padding: 25px;
+  margin-bottom: 10px;
+  border-radius: 80px;
+  box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+  max-width: 350px;
+  margin: 20px auto;
+}
+
+h2 {
+  color: #df0077;
+  border-bottom: 2px solid #3498db;
+  padding-bottom: 8px;
+  margin-bottom: 15px;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+h3 {
+  color: #aa1f00;
+  margin-top: 15px;
+  margin-bottom: 8px;
+}
+h4{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+ul {
+  margin-left: 20px;
+  margin-bottom: 15px;
+}
+
+
+.profile-img {
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+  object-fit: cover;
+  display: block;
+  margin: 10px 0 20px 0;
+  border: 3px solid #3498db;
+}
+
+
+a {
+  color: #3498db;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+
+footer {
+  text-align: center;
+  padding: 15px;
+  color: #7f8c8d;
+  font-size: 0.9rem;
+  margin-top: 20px;
+}
+img{
+    max-width: 200px;
+    height: auto;
+    border-radius: 50px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+#about-me{
+    text-align: center;
+}
+#what-i-built{
+    background-color: #0080ff;
+}
+#how-i-built-it{
+    background-color: #8b00a7;
+}
+#reflection{
+    background-color: rgb(175, 48, 243);
+}
